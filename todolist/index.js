@@ -9,7 +9,7 @@ form.addEventListener('submit',(event)=>{
         const li = document.createElement('li');
         li.innerText = input.value;
         ul.appendChild(li);
-        
+
         input.value = '';
     }
 });
