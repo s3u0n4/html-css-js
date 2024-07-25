@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+}
+form{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    column-gap: 10px;
+}
+input,button{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+input{
+    width: 100%;
+    padding: 0 15px;
+    outline: none;
+}
+button{
+    width: 100px;
+    background-color: #4285f4;
+    color: white;
+}
+button:hover{
+    background-color: #fcc629;
+}
+ul{
+    list-style: none;
+    margin: 20px 10px;
+}
+li {
+    border-bottom: 1px dotted lightgray;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+}
