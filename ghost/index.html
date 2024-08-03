@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ghost">
+        <div class="body">
+            <div class="face">
+                <div class="eye"></div>
+                <div class="eye"></div>
+                <div class="mouse"></div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="leg"></div>
+            <div class="leg"></div>
+            <div class="leg"></div>
+            <div class="leg"></div>
+            <div class="leg"></div>
+        </div>
+    </div>
+    <script>
+        document.body.addEventListener("mousemove",function(e){
+          document.querySelector('.ghost').style.left = e.pageX + 'px';
+          document.querySelector('.ghost').style.top = e.pageY + 'px';
+
+        })
+    </script>
+</body>
+</html>
