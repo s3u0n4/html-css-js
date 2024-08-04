@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">   
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <aside>
+            <ul class="pallet">
+                <li>
+                    <button class="red selected" data-color = "red">red</button>
+                </li>
+                <li>
+                    <button class="blue" data-color="blue">blue</button>
+                </li>
+                <li>
+                    <button class="black" data-color="black">black</button>
+                </li>
+                <li>
+                    <button class="green" data-color="green">green</button>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <button class="control-btn" id="eraser"><i class="fa-solid fa-eraser"></i></button>
+                </li>
+                <li>
+                    <button class="control-btn" id="download"><i class="fa-solid fa-download"></i> </button>
+                </li>
+            </ul>
+        </aside>
+        <canvas width="600px" height="400px"></canvas>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
