@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Questrial&display=swap" rel="stylesheet">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:100%;
+            height: 100vh;
+            background-color: #363636;
+            margin: 0;
+        }
+        .typing-text{
+            font-family: 'Fuzzy Bubbles',cursive;
+            font-size: 2rem;
+            color:white;
+            border-right: 3px solid white;
+            animation: blink .5s infinite, typing 2s steps(22);
+            width: 0;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        @keyframes blink{
+           50%{
+               border-color: transparent;
+           }
+        }
+        @keyframes typing{
+            from{width: 0;}
+            to{width: 476px;}
+        }
+    </style>
+</head>
+<body>
+    <p class="typing-text">welcome,sucoding youtube!</p>
+</body>
+</html>
